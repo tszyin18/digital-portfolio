@@ -147,8 +147,14 @@
   
   
   
+    
+    
+      
+    
+    
+    <img src="_static/profile-picture.png" class="logo__image only-light" alt="Digital Portfolio - Home"/>
+    <script>document.write(`<img src="_static/profile-picture.png" class="logo__image only-dark" alt="Digital Portfolio - Home"/>`);</script>
   
-    <p class="title logo__title">Digital Portfolio</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -420,112 +426,15 @@ document.write(`
 </div>
 </details>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Matplotlib is building the font cache; this may take a moment.
-</pre></div>
-</div>
 <div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">KeyboardInterrupt</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
+<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
 <span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
 <span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
-<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">import</span><span class="w"> </span><span class="nn">seaborn</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sns</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.pyplot</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">plt</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="kn">import</span><span class="w"> </span><span class="nn">seaborn</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">sns</span>
 
-<span class="n">File</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">miniconda3</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.13</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">pyplot</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">57</span>
-<span class="g g-Whitespace">     </span><span class="mi">55</span> <span class="kn">from</span><span class="w"> </span><span class="nn">cycler</span><span class="w"> </span><span class="kn">import</span> <span class="n">cycler</span>  <span class="c1"># noqa: F401</span>
-<span class="g g-Whitespace">     </span><span class="mi">56</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib</span>
-<span class="ne">---&gt; </span><span class="mi">57</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.colorbar</span>
-<span class="g g-Whitespace">     </span><span class="mi">58</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.image</span>
-<span class="g g-Whitespace">     </span><span class="mi">59</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">_api</span>
-
-<span class="n">File</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">miniconda3</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.13</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">colorbar</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">19</span>
-<span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
-<span class="g g-Whitespace">     </span><span class="mi">18</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">mpl</span>
-<span class="ne">---&gt; </span><span class="mi">19</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">_api</span><span class="p">,</span> <span class="n">cbook</span><span class="p">,</span> <span class="n">collections</span><span class="p">,</span> <span class="n">cm</span><span class="p">,</span> <span class="n">colors</span><span class="p">,</span> <span class="n">contour</span><span class="p">,</span> <span class="n">ticker</span>
-<span class="g g-Whitespace">     </span><span class="mi">20</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.artist</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">martist</span>
-<span class="g g-Whitespace">     </span><span class="mi">21</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib.patches</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">mpatches</span>
-
-<span class="n">File</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">miniconda3</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.13</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">contour</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">15</span>
-<span class="g g-Whitespace">     </span><span class="mi">13</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">mpl</span>
-<span class="g g-Whitespace">     </span><span class="mi">14</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="kn">import</span> <span class="n">_api</span><span class="p">,</span> <span class="n">_docstring</span>
-<span class="ne">---&gt; </span><span class="mi">15</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib.backend_bases</span><span class="w"> </span><span class="kn">import</span> <span class="n">MouseButton</span>
-<span class="g g-Whitespace">     </span><span class="mi">16</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib.lines</span><span class="w"> </span><span class="kn">import</span> <span class="n">Line2D</span>
-<span class="g g-Whitespace">     </span><span class="mi">17</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib.path</span><span class="w"> </span><span class="kn">import</span> <span class="n">Path</span>
-
-<span class="n">File</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">miniconda3</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.13</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">backend_bases</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">49</span>
-<span class="g g-Whitespace">     </span><span class="mi">46</span> <span class="kn">import</span><span class="w"> </span><span class="nn">numpy</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">np</span>
-<span class="g g-Whitespace">     </span><span class="mi">48</span> <span class="kn">import</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">mpl</span>
-<span class="ne">---&gt; </span><span class="mi">49</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib</span><span class="w"> </span><span class="kn">import</span> <span class="p">(</span>
-<span class="g g-Whitespace">     </span><span class="mi">50</span>     <span class="n">_api</span><span class="p">,</span> <span class="n">backend_tools</span> <span class="k">as</span> <span class="n">tools</span><span class="p">,</span> <span class="n">cbook</span><span class="p">,</span> <span class="n">colors</span><span class="p">,</span> <span class="n">_docstring</span><span class="p">,</span> <span class="n">text</span><span class="p">,</span>
-<span class="g g-Whitespace">     </span><span class="mi">51</span>     <span class="n">_tight_bbox</span><span class="p">,</span> <span class="n">transforms</span><span class="p">,</span> <span class="n">widgets</span><span class="p">,</span> <span class="n">is_interactive</span><span class="p">,</span> <span class="n">rcParams</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">52</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib._pylab_helpers</span><span class="w"> </span><span class="kn">import</span> <span class="n">Gcf</span>
-<span class="g g-Whitespace">     </span><span class="mi">53</span> <span class="kn">from</span><span class="w"> </span><span class="nn">matplotlib.backend_managers</span><span class="w"> </span><span class="kn">import</span> <span class="n">ToolManager</span>
-
-<span class="n">File</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">miniconda3</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.13</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">text</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">16</span>
-<span class="g g-Whitespace">     </span><span class="mi">14</span> <span class="kn">from</span><span class="w"> </span><span class="nn">.</span><span class="w"> </span><span class="kn">import</span> <span class="n">_api</span><span class="p">,</span> <span class="n">artist</span><span class="p">,</span> <span class="n">cbook</span><span class="p">,</span> <span class="n">_docstring</span>
-<span class="g g-Whitespace">     </span><span class="mi">15</span> <span class="kn">from</span><span class="w"> </span><span class="nn">.artist</span><span class="w"> </span><span class="kn">import</span> <span class="n">Artist</span>
-<span class="ne">---&gt; </span><span class="mi">16</span> <span class="kn">from</span><span class="w"> </span><span class="nn">.font_manager</span><span class="w"> </span><span class="kn">import</span> <span class="n">FontProperties</span>
-<span class="g g-Whitespace">     </span><span class="mi">17</span> <span class="kn">from</span><span class="w"> </span><span class="nn">.patches</span><span class="w"> </span><span class="kn">import</span> <span class="n">FancyArrowPatch</span><span class="p">,</span> <span class="n">FancyBboxPatch</span><span class="p">,</span> <span class="n">Rectangle</span>
-<span class="g g-Whitespace">     </span><span class="mi">18</span> <span class="kn">from</span><span class="w"> </span><span class="nn">.textpath</span><span class="w"> </span><span class="kn">import</span> <span class="n">TextPath</span><span class="p">,</span> <span class="n">TextToPath</span>  <span class="c1"># noqa # Logically located here</span>
-
-<span class="n">File</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">miniconda3</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.13</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">matplotlib</span><span class="o">/</span><span class="n">font_manager</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">1643</span>
-<span class="g g-Whitespace">   </span><span class="mi">1639</span>     <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;generated new fontManager&quot;</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1640</span>     <span class="k">return</span> <span class="n">fm</span>
-<span class="ne">-&gt; </span><span class="mi">1643</span> <span class="n">fontManager</span> <span class="o">=</span> <span class="n">_load_fontmanager</span><span class="p">()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1644</span> <span class="n">findfont</span> <span class="o">=</span> <span class="n">fontManager</span><span class="o">.</span><span class="n">findfont</span>
-<span class="g g-Whitespace">   </span><span class="mi">1645</span> <span class="n">get_font_names</span> <span class="o">=</span> <span class="n">fontManager</span><span class="o">.</span><span class="n">get_font_names</span>
-
-<span class="nn">File /opt/miniconda3/lib/python3.13/site-packages/matplotlib/font_manager.py:1637,</span> in <span class="ni">_load_fontmanager</span><span class="nt">(try_read_cache)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1635</span>             <span class="n">_log</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="s2">&quot;Using fontManager instance from </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">fm_path</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1636</span>             <span class="k">return</span> <span class="n">fm</span>
-<span class="ne">-&gt; </span><span class="mi">1637</span> <span class="n">fm</span> <span class="o">=</span> <span class="n">FontManager</span><span class="p">()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1638</span> <span class="n">json_dump</span><span class="p">(</span><span class="n">fm</span><span class="p">,</span> <span class="n">fm_path</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1639</span> <span class="n">_log</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;generated new fontManager&quot;</span><span class="p">)</span>
-
-<span class="nn">File /opt/miniconda3/lib/python3.13/site-packages/matplotlib/font_manager.py:1101,</span> in <span class="ni">FontManager.__init__</span><span class="nt">(self, size, weight)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1098</span> <span class="k">try</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1099</span>     <span class="k">for</span> <span class="n">fontext</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;afm&quot;</span><span class="p">,</span> <span class="s2">&quot;ttf&quot;</span><span class="p">]:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1100</span>         <span class="k">for</span> <span class="n">path</span> <span class="ow">in</span> <span class="p">[</span><span class="o">*</span><span class="n">findSystemFonts</span><span class="p">(</span><span class="n">paths</span><span class="p">,</span> <span class="n">fontext</span><span class="o">=</span><span class="n">fontext</span><span class="p">),</span>
-<span class="ne">-&gt; </span><span class="mi">1101</span>                      <span class="o">*</span><span class="n">findSystemFonts</span><span class="p">(</span><span class="n">fontext</span><span class="o">=</span><span class="n">fontext</span><span class="p">)]:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1102</span>             <span class="k">try</span><span class="p">:</span>
-<span class="g g-Whitespace">   </span><span class="mi">1103</span>                 <span class="bp">self</span><span class="o">.</span><span class="n">addfont</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-
-<span class="nn">File /opt/miniconda3/lib/python3.13/site-packages/matplotlib/font_manager.py:293,</span> in <span class="ni">findSystemFonts</span><span class="nt">(fontpaths, fontext)</span>
-<span class="g g-Whitespace">    </span><span class="mi">291</span> <span class="n">installed_fonts</span> <span class="o">=</span> <span class="n">_get_fontconfig_fonts</span><span class="p">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">292</span> <span class="k">if</span> <span class="n">sys</span><span class="o">.</span><span class="n">platform</span> <span class="o">==</span> <span class="s1">&#39;darwin&#39;</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">293</span>     <span class="n">installed_fonts</span> <span class="o">+=</span> <span class="n">_get_macos_fonts</span><span class="p">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">294</span>     <span class="n">fontpaths</span> <span class="o">=</span> <span class="p">[</span><span class="o">*</span><span class="n">X11FontDirectories</span><span class="p">,</span> <span class="o">*</span><span class="n">OSXFontDirectories</span><span class="p">]</span>
-<span class="g g-Whitespace">    </span><span class="mi">295</span> <span class="k">else</span><span class="p">:</span>
-
-<span class="nn">File /opt/miniconda3/lib/python3.13/site-packages/matplotlib/font_manager.py:269,</span> in <span class="ni">_get_macos_fonts</span><span class="nt">()</span>
-<span class="g g-Whitespace">    </span><span class="mi">266</span><span class="w"> </span><span class="sd">&quot;&quot;&quot;Cache and list the font paths known to ``system_profiler SPFontsDataType``.&quot;&quot;&quot;</span>
-<span class="g g-Whitespace">    </span><span class="mi">267</span> <span class="k">try</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">268</span>     <span class="n">d</span><span class="p">,</span> <span class="o">=</span> <span class="n">plistlib</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span>
-<span class="ne">--&gt; </span><span class="mi">269</span>         <span class="n">subprocess</span><span class="o">.</span><span class="n">check_output</span><span class="p">([</span><span class="s2">&quot;system_profiler&quot;</span><span class="p">,</span> <span class="s2">&quot;-xml&quot;</span><span class="p">,</span> <span class="s2">&quot;SPFontsDataType&quot;</span><span class="p">]))</span>
-<span class="g g-Whitespace">    </span><span class="mi">270</span> <span class="k">except</span> <span class="p">(</span><span class="ne">OSError</span><span class="p">,</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">CalledProcessError</span><span class="p">,</span> <span class="n">plistlib</span><span class="o">.</span><span class="n">InvalidFileException</span><span class="p">):</span>
-<span class="g g-Whitespace">    </span><span class="mi">271</span>     <span class="k">return</span> <span class="p">[]</span>
-
-<span class="nn">File /opt/miniconda3/lib/python3.13/subprocess.py:472,</span> in <span class="ni">check_output</span><span class="nt">(timeout, *popenargs, **kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">469</span>         <span class="n">empty</span> <span class="o">=</span> <span class="sa">b</span><span class="s1">&#39;&#39;</span>
-<span class="g g-Whitespace">    </span><span class="mi">470</span>     <span class="n">kwargs</span><span class="p">[</span><span class="s1">&#39;input&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">empty</span>
-<span class="ne">--&gt; </span><span class="mi">472</span> <span class="k">return</span> <span class="n">run</span><span class="p">(</span><span class="o">*</span><span class="n">popenargs</span><span class="p">,</span> <span class="n">stdout</span><span class="o">=</span><span class="n">PIPE</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">,</span> <span class="n">check</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">473</span>            <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span><span class="o">.</span><span class="n">stdout</span>
-
-<span class="nn">File /opt/miniconda3/lib/python3.13/subprocess.py:556,</span> in <span class="ni">run</span><span class="nt">(input, capture_output, timeout, check, *popenargs, **kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">554</span> <span class="k">with</span> <span class="n">Popen</span><span class="p">(</span><span class="o">*</span><span class="n">popenargs</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="k">as</span> <span class="n">process</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">555</span>     <span class="k">try</span><span class="p">:</span>
-<span class="ne">--&gt; </span><span class="mi">556</span>         <span class="n">stdout</span><span class="p">,</span> <span class="n">stderr</span> <span class="o">=</span> <span class="n">process</span><span class="o">.</span><span class="n">communicate</span><span class="p">(</span><span class="nb">input</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="n">timeout</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">557</span>     <span class="k">except</span> <span class="n">TimeoutExpired</span> <span class="k">as</span> <span class="n">exc</span><span class="p">:</span>
-<span class="g g-Whitespace">    </span><span class="mi">558</span>         <span class="n">process</span><span class="o">.</span><span class="n">kill</span><span class="p">()</span>
-
-<span class="nn">File /opt/miniconda3/lib/python3.13/subprocess.py:1209,</span> in <span class="ni">Popen.communicate</span><span class="nt">(self, input, timeout)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1207</span>     <span class="bp">self</span><span class="o">.</span><span class="n">_stdin_write</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1208</span> <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">stdout</span><span class="p">:</span>
-<span class="ne">-&gt; </span><span class="mi">1209</span>     <span class="n">stdout</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1210</span>     <span class="bp">self</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
-<span class="g g-Whitespace">   </span><span class="mi">1211</span> <span class="k">elif</span> <span class="bp">self</span><span class="o">.</span><span class="n">stderr</span><span class="p">:</span>
-
-<span class="ne">KeyboardInterrupt</span>: 
+<span class="ne">ModuleNotFoundError</span>: No module named &#39;seaborn&#39;
 </pre></div>
 </div>
 </div>
